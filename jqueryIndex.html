@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="master.css" type="text/css">
+</head>
+<body>
+   <div id="title">Negative Sentiment Count for Monitored Dietary Supplements</div>
+<script src="jquery-2.1.4.js"></script>
+<script>
+  $(function() 
+  {
+     // Hide and then bring back a div
+     $("#aconiteStyle").hide(3000).show(3000);
+
+     // Slide up and down are very cool - menu options? 
+     $("#bitterOrangeStyle").slideUp(3000).delay(2000).slideDown(3000);
+
+     // FadeToggle - similar to hide and show
+     $("#comfreyStyle").fadeToggle(3000).fadeToggle(3000);
+
+     // Click a button to change a different element
+     $("#wxsStatusClearButton").on('click', function()
+	{ 
+           $("#kavaStyle").toggle(3000).toggle(3000);
+	});   
+
+     // mouseover a button change a different element
+     $("#wxsStatusButton").on('mouseover', function()
+	{ 
+           $("#lobeliaStyle").toggle(2000).toggle(2000);
+	});   
+
+     // Click an element to change it
+     $("#ginkoStyle").on('click', function()
+	{ 
+           $("#ginkoStyle").toggle(1000).toggle(1000);
+	});   
+  });   
+		  
+</script>
+
+  <div id="topMenuBar">
+      <div id="topMenuBarItems">
+         <div id="logoText">Unregulated Dietary Supplements Monitor</div>
+      </div>
+    </div>
+
+    <div id="tabBar">
+       <div id="menu1" onclick="toggleMenu(1)" onmouseover="togChoiceOn(1)" onmouseout="togChoiceOff(1)">
+         <div id="menu1Text">Negative</div>
+       </div>
+
+       <div id="menu2" onclick="toggleMenu(2)" onmouseover="togChoiceOn(2)" onmouseout="togChoiceOff(2)">
+         <div id="menu2Text">Positive</div>
+       </div>
+
+       <div id="menu3" onclick="toggleMenu(3)" onmouseover="togChoiceOn(3)" onmouseout="togChoiceOff(3)" >
+         <div id="menu3Text">Neutral</div>
+       </div>
+
+       <div id="menu4" onclick="toggleMenu(4)" onmouseover="togChoiceOn(4)" onmouseout="togChoiceOff(4)">
+         <div id="menu4Text">Error Rate</div>
+       </div>
+    </div>
+
+
+      <div id="supplements">
+      <div id="aconiteStyle">&nbsp;
+      Aconite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="aconite" size="2" value="0"></br></br>
+      </div>   
+      <div id="bitterOrangeStyle">&nbsp;
+      Bitter Orange&nbsp;&nbsp;
+         <input type=text id="bitterOrange" size="2" value="0"></br></br>
+      </div>
+      <div id="chaparralStyle">&nbsp;
+      Chaparral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="chaparral" size="2" value="0"></br></br>
+      </div>
+      <div id="colloidalStyle">&nbsp;
+      Colloidal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="colloidal" size="2" value="0"></br></br>
+      </div>
+      <div id="coltsfootStyle">&nbsp;
+      Coltsfoot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="coltsfoot" size="2" value="0"></br></br>
+      </div>
+      <div id="comfreyStyle">&nbsp;
+      Comfrey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="comfrey" size="2" value="0"></br></br>
+      </div>
+      <div id="countryMallowStyle">&nbsp;
+      Country Mallow
+         <input type=text id="countryMallow" size="2" value="0"></br></br>
+      </div>
+      <div id="germaniumStyle">&nbsp;
+      Germanium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="germanium" size="2" value="0"></br></br>
+      </div>
+      <div id="kavaStyle">&nbsp;
+      Kava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="kava" size="2" value="0"></br></br>
+      </div>
+      <div id="lobeliaStyle">&nbsp;
+      Lobelia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="lobelia" size="2" value="0"></br></br>
+      </div>
+      <div id="yohimbeStyle">&nbsp;
+      Yohimbe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="yohimbe" size="2" value="0"></br></br>
+      </div>
+      <div id="ginkoStyle">&nbsp;
+         Ginkgo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type=text id="ginko" size="2" value="0"></br></br>
+      </div>
+      </div>  
+      
+      <div id="wxsStatusClearButton">
+         <input type="submit" value="Clear Counters" border="0">
+      </div>
+       <div id="wxsStatusButton">
+         <input type="submit" value="Get Rate Status" border="0">
+      </div>
+      
+        <div id="bottomBar">
+      <div id="bottomBarItems">
+         <div id="bottomText">National Association of Nutrition and Dietetics</div>
+         <div id="bottomText2">Site Map&nbsp;&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</div>
+      </div>
+    </div>
+       
+    </body>
+</html>
+	
+	
+	
+						

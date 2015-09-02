@@ -1,0 +1,205 @@
+body { background-color:lightblue}
+#title {color:darkblue;
+      position: absolute;
+	  display: block;
+	  top: 155px;
+	  left: 210px;
+	  font-size: 18px;
+	  font-weight: bold;}
+p    {color:green}
+
+#topMenuBar{
+	position: absolute;
+	display: block;
+	color: green;
+	background: -moz-linear-gradient(top,#000077,#0000dd); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000077', endColorstr='#0000DD'); /* for IE */
+	top: 0px;
+	left: 20px;
+	width: 980px;
+	height: 54px;
+	z-index: 100;
+	}
+
+#topMenuBarItems{
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	font-family: Helvetica;
+	color: #254117; 
+	font-size: 11px;
+	font-weight: bold;
+	width: 580px;
+	}
+#logoText {
+	position: absolute;
+	display: block;
+	color: white;
+	width: 480px;
+	height: 380px;
+	top: 10px;
+	left: 2px;
+	font-family: Helvetica;
+	font-size: 20px;
+	}
+#tabBar {
+	position: absolute;
+	display: block;
+	top: 30px;
+	left: 560px;
+	width: 500px;
+	height: 6px;
+	z-index: 100;
+	}
+
+#menu1, #menu2, #menu3, #menu4{
+	position: absolute;
+	top: 4px;
+	text-align: center;
+	vertical-align: middle;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-color: #330011;
+	width: 100px;
+	height: 20px;
+	background-color: #7080cc;
+	-moz-border-radius: 5px 5px 0px 0px;
+}
+
+#menu1Text, #menu2Text, #menu3Text, #menu4Text{
+	position: absolute;
+	font-size: 12px;
+	font-family: Helvetica;
+	font-style: bold; 
+	color: white;
+}
+
+#menu1 { 	display: block;	left: 10px;	background-color: #d9d9d9;	}
+#menu1Text {	top: 3px;	left: 24px;	color: black;	}	
+
+#menu2 {	display: block;	left: 112px;	}
+#menu2Text {	top: 3px;	left: 30px;	}	
+
+#menu3 {	display: block;	left: 214px;	}
+#menu3Text {	top: 3px;	left: 28px;	}	
+
+#menu4 {	display: block;	left: 316px;	}
+#menu4Text {	top: 3px;	left: 20px;	}	
+
+#supplements
+{
+	position: absolute;
+	display: block;
+	color: blue;
+	width: 400px;
+	height: 380px;
+	top: 150px;
+	left: 120px;
+	font-family: Helvetica;
+	font-size: 18px;
+}
+#aconiteStyle, #bitterOrangeStyle, #chaparralStyle, #colloidalStyle, #coltsfootStyle, #comfreyStyle,
+#countryMallowStyle, #germaniumStyle, #kavaStyle, #lobeliaStyle, #yohimbeStyle, #ginkoStyle
+{
+	position: absolute;
+	display: block;
+	border: solid;
+	border-color: blue;
+	background: -moz-linear-gradient(bottom,lightgrey, white);
+	//background-color:lightgreen;
+	//background-color:lightgrey;
+}
+
+#aconiteStyle
+{	top: 50px; left: 0px; width: 185px; }
+#bitterOrangeStyle 
+{	top: 50px; left: 200px; width: 185px;}
+#chaparralStyle
+{ 	top: 50px; left: 400px; width: 185px;}
+#colloidalStyle
+{	top: 50px; left: 600px; width: 185px;}
+#coltsfootStyle
+{	top: 130px;	left: 0px; width: 185px;}
+#comfreyStyle
+{	top: 130px;	left: 200px; width: 185px;}
+#countryMallowStyle
+{	top: 130px;	left: 400px; width: 185px;}
+#germaniumStyle
+{	top: 130px;	left: 600px; width: 185px;}
+#kavaStyle
+{	top: 210px;	left: 0px; width: 185px;}
+#lobeliaStyle
+{	top: 210px;	left: 200px; width: 185px;}
+#yohimbeStyle
+{	top: 210px;	left: 400px; width: 185px;}
+#ginkoStyle
+{	top: 210px;	left: 600px; width: 185px;}
+
+#wxsStatusClearButton {
+	position: absolute;
+	display: block;
+	top: 450px;
+	left: 375px;
+	font-family: Helvetica;
+	color: #254117;
+	font-size: 18px;
+	}
+
+#wxsStatusButton {
+	position: absolute;
+	display: block;
+	top: 450px;
+	left: 540px;
+	font-family: Helvetica;
+	color: #254117;
+	font-size: 18px;
+	}
+
+#bottomBar{
+	position: absolute;
+	display: block;
+	color: green;
+	background: -moz-linear-gradient(top,#000077,#0000dd); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000077', endColorstr='#0000DD'); /* for IE */
+	top: 800px;
+	left: 20px;
+	width: 980px;
+	height: 54px;
+	z-index: 100;
+	}
+
+#bottomBarItems{
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	font-family: Helvetica;
+	color: #254117; 
+	font-size: 11px;
+	font-weight: bold;
+	width: 580px;
+	}
+#bottomText {
+	position: absolute;
+	display: block;
+	color: white;
+	width: 480px;
+	height: 380px;
+	top: 10px;
+	left: 700px;
+	font-family: Helvetica;
+	font-size: 10px;
+	}
+	
+	#bottomText2 {
+	position: absolute;
+	display: block;
+	color: white;
+	width: 480px;
+	height: 380px;
+	top: 10px;
+	left: 0px;
+	font-family: Helvetica;
+	font-size: 10px;
+	});   
