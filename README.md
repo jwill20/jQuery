@@ -1,2 +1,2 @@
 # jQuery
-jQuery samples
+jQuery samples for manipulating divs
