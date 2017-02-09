@@ -1,2 +1,2 @@
 # jQuery
-Materials for learning jQuery.
+jQuery samples
